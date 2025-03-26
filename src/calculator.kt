@@ -13,15 +13,18 @@ fun main() {
     var function= readln()
 
     var result = when(function){
-        "+" -> println("The result is ${numb + num}")
-        "-" -> println("The result is ${numb - num}")
-        "*" -> println("The result is ${numb * num}")
-        "/" -> println("The result is ${numb / num}")
+        "+" ->  println("The result is ${numb+num}")
+        "-" ->  println("The result is ${numb-num}")
+        "*" ->  println("The result is ${numb*num}")
+        "/" ->  println("The result is ${numb/num}")
+
 
 
         else -> "Invalid function"
 
+
     }
+
 
 
 }
